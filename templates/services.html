@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Services</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="static/css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="static/images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="static/css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="static/css/owl.carousel.min.css">
+<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Diagnosis Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
+    <style> /* style.css */
+       /* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Input Box Styling */
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px; /* Adds space between input fields (bottom) */
+    
+    /* Adjusts spacing around the input box */
+    margin-top: 10px;  /* Adds space above the input box */
+    margin-left: 15px; /* Adds space to the left of the input box */
+    margin-right: 15px; /* Adds space to the right of the input box */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Adds space between rows of form elements */
+.row.mb-3 {
+    margin-bottom: 25px; /* Adjust space between form rows */
+}
+
+    </style>        
+  <!--header section start -->
+  <div class="header_section background_bg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="logo" style="margin-left:20px; color:brown; font-weight:bold; font-size:60px;">
+            <h1>FRAUD CLAIM DETECTION</h1>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="menu_text">
+            <ul>
+              <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="/">Home</a>
+                  <a href="/about">About</a>
+                  <a href="/services">Predict</a>
+                  <a href="/client">Training Graphs</a>
+                  <a href="/contact">Contact Us</a>
+                  <a href="/logout">Logout</a>
+                </div>
+              </div>
+              <span class="navbar-toggler-icon"></span>
+              <span onclick="openNav()"><img src="static/images/toogle-icon.png" class="toggle_menu"></span>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header section end -->
+  
+  <!-- portfolio section start -->
+  <div class="portfolio_section layout_padding">
+    <form method="post" action="/services" enctype="multipart/form-data">       
+      <div class="container">
+        <h1 class="best_taital">Enter Claim Details</h1>
+        <p class="best_text">Enter the User Claim Details</p>
+        
+        <div class="container">
+          <div class="card bg-light p-4" style="width: 700px; margin: 0 auto;">
+            <div class="row">
+              <!-- Left Side: Input Fields -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="BeneID">unique identifier in the healthcare system (BeneID)</label>
+                  <input type="number" id="BeneID" name="BeneID" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="DOB">Date of Birth (DOB)</label>
+                  <input type="number" id="DOB" name="DOB" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="DOD">Date of Death (DOD)</label>
+                  <input type="number" id="DOD" name="DOD" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="Gender">Gender</label>
+                  <select id="Gender" name="Gender" class="form-control" required>
+                    <option value="" selected disabled>Select Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="Race">Race</label>
+                  <input type="number" id="Race" name="Race" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="RenalDiseaseIndicator">Renal Disease Indicator(float like ex: 0.0)</label>
+                  <input type="number" step="any" id="RenalDiseaseIndicator" name="RenalDiseaseIndicator" class="form-control" required>
+
+                </div>
+                <div class="form-group">
+                  <label for="State">State</label>
+                  <input type="text" id="State" name="State" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="County">County</label>
+                  <input type="text" id="County" name="County" class="form-control" required>
+                </div>
+                
+                <!-- New Image Upload Field -->
+                <div class="form-group">
+                    <label for="ClaimImage">Upload Claim Document</label>
+                    <input type="file" id="ClaimImage" name="ClaimImage" class="form-control-file" accept="image/*" required>
+                </div>
+            </div>
+
+              <!-- Right Side: Input Fields -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="NoOfMonths_PartACov">No of Months Part A Coverage</label>
+                  <input type="number" id="NoOfMonths_PartACov" name="NoOfMonths_PartACov" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="NoOfMonths_PartBCov">No of Months Part B Coverage</label>
+                  <input type="number" id="NoOfMonths_PartBCov" name="NoOfMonths_PartBCov" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="ChronicCond_Alzheimer">Chronic Condition: Alzheimer(1 for 'NO' & 2 for 'Yes')</label>
+                  <input type="number" id="ChronicCond_Alzheimer" name="ChronicCond_Alzheimer" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="ChronicCond_Heartfailure">Chronic Condition: Heart Failure (1 for 'NO' & 2 for 'Yes')</label>
+                  <input type="number" id="ChronicCond_Heartfailure" name="ChronicCond_Heartfailure" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="ChronicCond_KidneyDisease">Chronic Condition: Kidney Disease (1 for 'NO' & 2 for 'Yes')</label>
+                  <input type="number" id="ChronicCond_KidneyDisease" name="ChronicCond_KidneyDisease" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="ChronicCond_Cancer">ChronicCond: Cancer (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_Cancer" name="ChronicCond_Cancer" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_ObstrPulmonary">Chronic Condition: ObstrPulmonary (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_ObstrPulmonary" name="ChronicCond_ObstrPulmonary" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_Depression">Chronic Condition: Depression (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_Depression" name="ChronicCond_Depression" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_Diabetes">Chronic Condition: Diabetes (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_Diabetes" name="ChronicCond_Diabetes" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_IschemicHeart">Chronic Condition: IschemicHeart (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_IschemicHeart" name="ChronicCond_IschemicHeart" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_Osteoporasis">Chronic Condition: Osteoporasis (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_Osteoporasis" name="ChronicCond_Osteoporasis" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_rheumatoidarthritis">Chronic Condition: rheumatoidarthritis (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_rheumatoidarthritis" name="ChronicCond_rheumatoidarthritis" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ChronicCond_stroke">Chronic Condition: stroke (1 for 'NO' & 2 for 'Yes')</label>
+                    <input type="number" id="ChronicCond_stroke" name="ChronicCond_stroke" class="form-control" required>
+                  </div>
+                <div class="form-group">
+                  <label for="IPAnnualReimbursementAmt">IP Annual Reimbursement Amount</label>
+                  <input type="number" id="IPAnnualReimbursementAmt" name="IPAnnualReimbursementAmt" class="form-control" required>
+                </div>
+            
+                  <label for="IIPAnnualDeductibleAmt">IP Annual Deductible Amount</label>
+                  <input type="number" id="IPAnnualDeductibleAmt" name="IPAnnualDeductibleAmt" class="form-control" required>
+                </div>
+                <div class="form-group" style="margin-right: 15px; display: inline-block; width: 48%;">
+                    <label for="OPAnnualReimbursementAmt">OP Annual Reimbursement Amount</label>
+                    <input type="number" id="OPAnnualReimbursementAmt" name="OPAnnualReimbursementAmt" class="form-control" required>
+                  </div>
+                  
+                  <div class="form-group" style="display: inline-block; width: 48%;">
+                    <label for="OPAnnualDeductibleAmt">OP Annual Deductible Amount</label>
+                    <input type="number" id="OPAnnualDeductibleAmt" name="OPAnnualDeductibleAmt" class="form-control" required>
+                  </div>
+                  
+                <div class="form-group">
+                  <label for="Provider">Provider</label>
+                  <input type="number" id="Provider" name="Provider" class="form-control" required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="get_bt mt-3 text-center">
+            <button type="submit" class="btn btn-primary">Predict</button>
+          </div>
+          
+        </div>
+      </form>
+ <!-- Prediction Result -->
+ {% if prediction %}
+ <div class="container">
+     <h2>Prediction Result</h2>
+     <p>{{ prediction }}</p>
+ </div>
+{% endif %}
+      <div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section end -->
+
+  <!-- footer section start -->
+  <div class="footer_section layout_padding">
+    <!-- Footer content here... -->
+  </div>
+  <!-- footer section end -->
+
+  <!-- Javascript files-->
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/jquery-3.0.0.min.js"></script>
+  <script src="static/js/plugin.js"></script>
+  <script src="static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="static/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+</html>
