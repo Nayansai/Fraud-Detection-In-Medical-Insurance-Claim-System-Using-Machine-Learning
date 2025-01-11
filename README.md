@@ -32,7 +32,6 @@ This project is a **Medical Insurance Fraud Detection System** implemented as a 
 
 - **The project uses the following datasets:**
 
-
-Train-1542865627584.csv: Dataset used to train the fraud detection model.
-Testfile.xlsx and Train_Beneficiarydata(Test).xlsx: Test datasets for validation purposes.
-xgboost_model.pkl: Pre-trained XGBoost model for fraud detection.
+- **Train-1542865627584.csv**: Dataset used to train the fraud detection model.
+- **Testfile.xlsx** and **Train_Beneficiarydata(Test).xlsx**: Test datasets for validation purposes.
+- **xgboost_model.pkl**: Pre-trained XGBoost model for fraud detection.
