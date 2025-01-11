@@ -14,18 +14,18 @@ This project is a **Medical Insurance Fraud Detection System** implemented as a 
 ---
 
 ## 📂 Project Structure
-├── Bills/                         # Sample bills or related datasets
-├── static/                        # Static assets like CSS, JS, and images
-├── templates/                     # HTML templates for the frontend
-├── README.md                      # Project documentation
-├── Testfile.xlsx                  # Test data for the system
-├── Train-1542865627584.csv        # Training data for the ML model
+├── Bills/                          # Sample bills or related datasets
+├── static/                         # Static assets like CSS, JS, and images
+├── templates/                      # HTML templates for the frontend
+├── README.md                       # Project documentation
+├── Testfile.xlsx                   # Test data for the system
+├── Train-1542865627584.csv         # Training data for the ML model
 ├── Train_Beneficiarydata(Test).xlsx # Additional test data
-├── Train_Beneficiarydata.csv      # Beneficiary data for training
-├── Untitled1.ipynb                # Jupyter Notebook for data analysis
-├── requirements.txt               # Python dependencies
-├── run.py                         # Main entry point to run the Flask app
-├── xgboost_model.pkl              # Pre-trained XGBoost model
+├── Train_Beneficiarydata.csv       # Beneficiary data for training
+├── Untitled1.ipynb                 # Jupyter Notebook for data analysis
+├── requirements.txt                # Python dependencies
+├── run.py                          # Main entry point to run the Flask app
+├── xgboost_model.pkl               # Pre-trained XGBoost model
 
 
 📊 Dataset
