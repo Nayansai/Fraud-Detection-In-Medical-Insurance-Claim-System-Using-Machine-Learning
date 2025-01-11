@@ -73,7 +73,7 @@ The backend is powered by **Flask**, enabling:
 
 ---
 
-# Running the Project
+# ⚙️ Running the Project
 
 To run this project, follow these steps:
 
