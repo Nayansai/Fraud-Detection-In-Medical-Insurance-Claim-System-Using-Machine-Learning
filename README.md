@@ -54,3 +54,19 @@ The frontend is designed to ensure a seamless user experience:
 - **Static Files**: Assets like CSS, JS, and images are stored in the `static/` folder.
 - **Templates**: Dynamic HTML templates are stored in the `templates/` folder.
 
+---
+
+## 💻 Backend
+The backend is powered by **Flask**, enabling:
+
+- **File Uploads**: Supports uploading `.csv` and `.xlsx` files for analysis.
+- **Predictions**: Utilizes the trained XGBoost model to predict fraudulent claims.
+- **Real-Time Fraud Detection**: Automatically flags suspicious claims and generates dynamic reports.
+
+---
+
+## 🧪 Usage
+1. Open the application in your browser.
+2. Upload a claim file (`.csv` or `.xlsx`).
+3. The system will analyze the claims and highlight potential fraud.
+4. Download detailed analysis reports for further investigation.
