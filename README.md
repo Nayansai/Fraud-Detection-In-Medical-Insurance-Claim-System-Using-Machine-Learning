@@ -70,3 +70,33 @@ The backend is powered by **Flask**, enabling:
 2. Upload a claim file (`.csv` or `.xlsx`).
 3. The system will analyze the claims and highlight potential fraud.
 4. Download detailed analysis reports for further investigation.
+
+---
+
+# Running the Project
+
+To run this project, follow these steps:
+
+1. Open Anaconda Prompt:
+   Launch the Anaconda Prompt application from your system.
+
+2. Activate the Project Environment:
+   In the Anaconda Prompt, type the following command to activate the environment for the project:
+   ```bash
+   activate project
+
+3. Navigate to the Project Directory:
+   Change the directory to the folder where the project files are located by typing:
+   ```bash
+   cd path
+
+4. Run the Script:
+   Execute the project script by typing:
+   ```bash
+   python run.py
+   
+5. Visit the Local Server:
+   After the script runs successfully, open your browser and visit the local server page at:
+   ```bash
+   http://localhost:PORT
+   
