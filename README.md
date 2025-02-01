@@ -100,4 +100,3 @@ To run this project, follow these steps:
    ```bash
    http://localhost:PORT
 
-OK!
